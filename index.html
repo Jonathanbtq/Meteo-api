@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="map.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <title>Qualites de l'air</title>
+</head>
+<body>
+    <div class="container_main">
+        <h1>Carte</h1>
+        <form action="" method="GET">
+            <input type="text" name="city" class="city">
+            <input type="button" name="button" value="Chercher" onClick="FormCity()">
+        </form>
+        <div class="map" id="map">
+
+        </div>
+    </div>
+</body>
+</html>
